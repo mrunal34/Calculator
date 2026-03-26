@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    width: 100%;
+    height: 120vh;
+    background-color:rgb(13, 14, 14);
+}
+
+
+    
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top:200px;
+    background: transparent;
+    box-shadow: 0px 4px  rgba(113,115,119,0.7);
+    padding: 2px;
+
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 1px solid #ef5c13;
+
+
+
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 30px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px 2px;
+
+}
+input{
+    width: 250px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background: transparent ;
+    box-shadow: 1px 2px 15px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+
+
+}
+input::placeholder{
+    color: white;
+    align-items: center;
+    opacity: 30%;;
+
+}
+button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px  rgba(255,255,255,0.4);
+    cursor: pointer;
+
+}
+.equal{
+ background-color:#ef5c13;
+
+}
+.Mrunal{
+    color: red;
+}
+
+.m1 {
+    color: white;
+    font-style: calc();
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
